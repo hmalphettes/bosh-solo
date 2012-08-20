@@ -1,3 +1,5 @@
+#!/bin/sh
+
 function list_logs() {
   typeset log_dir=/var/vcap/sys/log
   mkdir -p ${log_dir}
